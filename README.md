@@ -51,7 +51,7 @@ I risultati migliori sono stati ottenuti in ordine decrescente:
  - KNN
  - Logistic Regression
 
-Questo ordine non ci sorprende, vista la generale migliore capacità di algoritmi basati sull’apprendimento d’insieme (ensemble learning) di catturare relazioni non lineari e ignorare casi estremi.
+Questo ordine non ci sorprende, vista la generale migliore capacità di algoritmi basati sull’apprendimento d’insieme (*ensemble learning*) di catturare relazioni non lineari e ignorare casi estremi.
 
 Un aspetto da tenere in considerazione è anche i tempi di allenamento e predizione di un modello. Data la maggiore complessità computazionale dei modelli di apprendimento d'insieme, i migliori modelli nella nostra lista sono anche quelli che richiedono più tempo nella fase di allenamento. In particolare, il *Gradient Boosting Classifier* che abbiamo considerato ha richiesto un tempo di allenamento molto più grande di quello del *Random Forest*, per cui i suoi ottimi risultati andrebbero commisurati al tipo di applicazione che si intende implementare.
 
